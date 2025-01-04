@@ -1,11 +1,14 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 150px;
-  color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title {
@@ -13,6 +16,7 @@
   font-weight: 700;
   color: black;
   font-family: 'Bitter', serif;
+  margin-top: 65px;
 }
 
 .projects {
@@ -22,9 +26,11 @@
   justify-content: flex-start;
   gap: 30px;
   width: 100%;
-  overflow-x: auto;
-  overflow-y:hidden;
+  min-width: 100%; /* Ensures the project container doesn't shrink smaller than 100% */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  height: 500px;
+  height: 80vh;
   padding: 10px;
+  margin-top: 2vh;
 }

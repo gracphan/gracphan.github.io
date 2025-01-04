@@ -4,27 +4,25 @@
     "imageSrc": "projects/FlappyFish.jpg",
     "description": "Flappy Fish is a dynamic game where the goal is to avoid bumping into seaweed and jellyfish.",
     "skills": ["Arduino", "C++"],
-    "demo": "https://www.example.com"
+    "demo": "https://youtu.be/r4-bMRFIg6c"
+  },
+  {
+    "title": "Sepsis Prediction Model",
+    "imageSrc": "projects/VinBrain.png",
+    "description": "During my internship at VinBrain, I created a machine learning model to predict sepsis in patients.",
+    "skills": ["Python", "Data Analysis"]
   },
   {
     "title": "Eleckey",
     "imageSrc": "projects/inora_technologies_inc_logo.jpg",
     "description": "Eleckey is a self-service licensing key application I worked on during my semester with Inora Technologies.",
-    "skills": ["C", "Python"],
-    "demo": "https://www.example.com"
+    "skills": ["C", "Python"]
   },
   {
     "title": "Photographers' Favorites",
     "imageSrc": "projects/Screenshot 2025-01-03 175007.png",
     "description": "This is a collection of favorite photos taken by the photography staff at the Michigan Daily.",
     "skills": ["Typescript", "Javascript", "React"],
-    "demo": "https://www.example.com"
-  },
-  {
-    "title": "My Portfolio",
-    "imageSrc": "projects/Screenshot 2025-01-03 170601.png",
-    "description": "This website was a project that I did over winter break!",
-    "skills": ["React", "HTML", "CSS", "Javascript"],
-    "demo": "https://www.example.com"
+    "demo": "https://specials.michigandaily.com/2024/photographers-favorites/"
   }
 ]
