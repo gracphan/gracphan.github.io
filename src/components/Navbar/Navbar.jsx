@@ -9,15 +9,15 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        GP
       </a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
           src={
             menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
+              ? getImageUrl("nav/close_icon.png")
+              : getImageUrl("nav/menu_icon.png")
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -30,10 +30,10 @@ export const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Extras</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

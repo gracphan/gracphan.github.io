@@ -1,26 +1,30 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 150px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  text-align: center;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  color: black;
+  font-family: 'Bitter', serif;
 }
 
 .projects {
-  margin-top: 37px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 30px;
   width: 100%;
+  overflow-x: auto;
+  overflow-y:hidden;
+  scroll-snap-type: x mandatory;
+  height: 500px;
+  padding: 10px;
 }
