@@ -42,13 +42,17 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
     padding-left: 0;
     padding-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .content {
     flex-direction: column;
+    width:100%;
   }
 
   .aboutImage {

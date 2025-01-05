@@ -14,6 +14,7 @@
 
 .content {
   display: flex;
+  justify-content: center;
   z-index: 1;
   width: 70%;
   text-align: center;
@@ -45,18 +46,5 @@
 
   .content {
     flex-direction: column;
-  }
-
-  .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
