@@ -5,9 +5,9 @@ import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
-export const Projects = () => {
+export const Projects = ({ id }) => {
   return (
-    <section className={styles.container} id="projects">
+    <section className={styles.container} id={id}>
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.projects}>
         {projects.map((project, id) => {

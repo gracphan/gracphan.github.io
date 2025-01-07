@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className={styles.introContainer}>
           <h1 className={styles.title}>Hi, I'm Grace!</h1>
           <p className={styles.description}>
-            I'm passionate about using technology to create innovative and meaningful solutions.
+            I'm a developer who's passionate about creating innovative and meaningful solutions.
           </p>
         </div>
         <div className={styles.checkOutContainer}>

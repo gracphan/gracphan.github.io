@@ -2,9 +2,9 @@ import React from "react";
 
 import styles from "./About.module.css";
 
-export const About = () => {
+export const About = ({ id }) => {
   return (
-    <section className={styles.container} id="about">
+    <section className={styles.container} id={id}>
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <p className={styles.description}>
@@ -13,7 +13,7 @@ export const About = () => {
             I'm passionate about software development because of its endless creative possibilities, and I love the process of transforming ideas into tangible products.
         </p>
         <p className={styles.description}>
-            When I'm away from my computer, you'll find me playing my violin or guitar, baking, running, or reading!
+            When I'm away from my computer, you'll find me playing my violin or guitar, baking, running, singing, or reading!
         </p>
       </div>
     </section>

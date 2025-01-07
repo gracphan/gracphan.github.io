@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -27,16 +27,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="/#about">About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="/#projects">Projects</a>
           </li>
           <li>
-            <a href="#extras">Extras</a>
+            <Link to="/photography">Photography</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="/#contact">Contact</a>
           </li>
         </ul>
       </div>
