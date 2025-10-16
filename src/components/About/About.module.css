@@ -1,70 +1,75 @@
-@import "../../vars.css";
-
+/* Master Styling */
 .container {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   z-index: 1;
+  height: 100vh;
   margin-left: 10%;
   margin-right: 10%;
-  height: 100vh;
 }
 
 .content {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   z-index: 1;
-  width: 70%
 }
 
 .title {
   color: black;
-  font-size: 40px;
   font-weight: 700;
   font-family: 'Bitter', serif;
 }
 
 .description {
-  padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 20px;
-  line-height: 30px;
   text-align: justify;
 }
 
-.aboutImage {
-  width: 35%;
-}
 
-@media screen and (max-width: 830px) {
+@media screen and (orientation: landscape) {
   .container {
-    padding-left: 0;
-    padding-right: 0;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: space-between;
   }
 
   .content {
     flex-direction: column;
-    width:100%;
+    width: 70%;
   }
 
-  .aboutImage {
-    display: none;
+  .title {
+    color: black;
+    font-size: 6.5vh;
   }
 
-  .aboutItems {
-    margin-top: 29px;
+  .description {
+    padding: 3.2vh;
+    font-size: 3.2vh;
+    line-height: 4.8vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .description {
+    padding: 0;
+    font-size: 2.7vh;
+    line-height: 4.5vh;
+  }
+
+  .title {
+    font-size: 9vw;
+    margin-bottom: 5vw
   }
 }

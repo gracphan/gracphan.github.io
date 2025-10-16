@@ -1,31 +1,23 @@
-@import "../../vars.css";
-
+/* Master Styling */
 .container {
   color: black;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   width: 100vw;
-  height: 40vh;
-  gap: 10px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: black;
 }
 
-.text h2 {
-  font-size: 72px;
+.title {
   font-weight: 700;
   color: black;
   font-family: 'Bitter', serif;
 }
 
-.text p {
-  font-size: 23px;
+.description {
   font-weight: 400;
   color: black;
   font-family: 'Bitter', serif;
@@ -33,12 +25,10 @@
 
 .links {
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
 }
 
 .image {
-  width:40px;
   z-index: 1;
   transition: transform 0.3s ease;
 }
@@ -47,11 +37,40 @@
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70vh;
+  }
+
+  .title {
+    font-size: 11.3vh;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .description {
+    font-size: 3.6vh;
+    line-height: 6.4vh;
+  }
+
+  .image {
+    width: 10vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
   .container {
     flex-direction: column;
-    gap: 23px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    height: 50vh;
+  }
+
+  .title {
+    font-size: 11vw;
   }
 
   .text {
@@ -61,7 +80,15 @@
   .links {
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    color: black;
+
+  }
+
+  .description {
+    font-size: 5.4vw;
+    line-height: 6vh;
+  }
+
+  .image {
+    width: 15vw;
   }
 }

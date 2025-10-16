@@ -1,4 +1,64 @@
 [
+{
+    "title": "Spotify Notes Extension",
+    "imageSrc": "projects/SpotifyExtension.jpg",
+    "description": "A Google Chrome extension that lets users attach notes to songs on Spotify with real-time rendering, private/public settings, and caching logic.",
+    "skills": ["Javascript", "HTML", "CSS", "Node.js", "Express.js", "Firebase"]
+    },
+  {
+    "title": "Instagram Clone",
+    "imageSrc": "projects/Insta.jpg",
+    "description": "A web application featuring client-side dynamic pages, real-time user interactions, and user authentication. Built with a RESTful API backend and a responsive frontend.",
+    "skills": ["Python", "Flask", "Javascript", "HTML", "CSS", "React", "Jinja", "SQL", "AWS", "Shell Scripting"]
+  },
+  {
+    "title": "Fakebook",
+    "imageSrc": "projects/Fakebook.jpg",
+    "description": "A Java application inspired by Facebook that runs SQL queries on a relational database and processes the results using custom data structures.",
+    "skills": ["Java", "SQL", "JDBC"]
+  },
+  {
+    "title": "LC2K Assembler and Linker",
+    "imageSrc": "projects/LC2K.jpg",
+    "description": "An assembler, linker, and instruction-level simulator for the simplified LC2K ISA inspired by ARM to model real CPU behavior.",
+    "skills": ["C", "Assembly", "ISA", "Computer Architecture"]
+  },
+  {
+    "title": "Piazza Post Classifier",
+    "imageSrc": "projects/Piazza.jpg",
+    "description": "A program that identifies the subject of Piazza posts by applying NLP and machine learning techniques.",
+    "skills": ["NLP", "Machine Learning", "C++"]
+  },
+  {
+    "title": "Zookeeper Optimal Route Tracer",
+    "imageSrc": "projects/Zookeeper.jpg",
+    "description": "Implemented optimization algorithms (TSP, knapsack) to determine efficient feeding and routing schedules for zoo animals. Integrated farthest insertion heuristic, pruning, and distance caching.",
+    "skills": ["C++", "Optimization Algorithms", "Graph Theory"]
+  },
+  {
+    "title": "Zombie Simulation Game",
+    "imageSrc": "projects/Zombie.jpg",
+    "description": "A simulation game modeling autonomous interactions between zombies and survivors. Designed using priority based on zombie distance and health for decision-making.",
+    "skills": ["C++"]
+  },
+  {
+    "title": "Treasure Hunt Route Tracer",
+    "imageSrc": "projects/TreasureHunt.jpg",
+    "description": "Implemented breadth-first and depth-first search algorithms to simulate route tracing for finding treasure across varying terrains.",
+    "skills": ["C++", "Graph Algorithms"]
+  },
+  {
+    "title": "Euchre Card Game",
+    "imageSrc": "projects/Euchre.jpg",
+    "description": "A command line version of the beloved Michigan card game with AI opponents that use rule-based and strategic decision-making.",
+    "skills": ["C++"]
+  },
+  {
+    "title": "Image Resizer",
+    "imageSrc": "projects/ImageResizer.jpg",
+    "description": "An image resizer using the seam-carving algorithm, preserving key features by computing energy maps and removing low-importance seams. Focused on performance and memory efficiency with dynamic allocation.",
+    "skills": ["C++", "Image Processing"]
+  },
   {
     "title": "Flappy Fish",
     "imageSrc": "projects/FlappyFish.jpg",
@@ -15,13 +75,13 @@
   {
     "title": "Eleckey",
     "imageSrc": "projects/Inora.jpg",
-    "description": "Eleckey is a self-service licensing key application I worked on during my semester with Inora Technologies.",
+    "description": "A self-service licensing key application I worked on during my semester with Inora Technologies.",
     "skills": ["C", "Python"]
   },
   {
     "title": "Photographers' Favorites",
     "imageSrc": "projects/PhotoFaves.jpg",
-    "description": "This is a collection of favorite photos taken by the photography staff at the Michigan Daily.",
+    "description": "A collection of favorite photos taken by the photography staff at the Michigan Daily.",
     "skills": ["Typescript", "Javascript", "React"],
     "demo": "https://specials.michigandaily.com/2024/photographers-favorites/"
   }

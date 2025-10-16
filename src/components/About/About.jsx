@@ -8,7 +8,7 @@ export const About = ({ id }) => {
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <p className={styles.description}>
-            I'm a sophomore at the University of Michigan studying Computer Science with a minor in Economics.
+            I'm a junior at the University of Michigan studying Computer Science.
             I have spent the majority of my life in Okemos, Michigan, but I've also lived in Connecticut and Massachusetts.
             I'm passionate about software development because of its endless creative possibilities, and I love the process of transforming ideas into tangible products.
         </p>

@@ -1,43 +1,32 @@
-@import "../../vars.css";
-
+/* Master Styling */
 .container {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
   height: 100vh;
 }
 
 .content {
-  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
   z-index: 1;
-  margin-right: 5vh;
 }
 
 .introContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   z-index: 1;
-  margin-top: 20%;
 }
 
 .checkOutContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   z-index: 1;
 }
 
 .title {
-  font-size: 72px;
   font-weight: 900;
   font-family: 'Bitter', serif;
   color: black;
@@ -45,20 +34,17 @@
 }
 
 .description {
-  font-size: 23px;
   font-family: 'Bitter', serif;
   color: black;
-  line-height: 38px;
 }
 
-.checkWork {
-  font-size: 18px;
-  color: black;
+.downArrow {
+  width: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .heroImg {
-  width: 45%;
-  margin-top: 3%;
   z-index: 1;
   border-radius: 50%;
   object-fit: cover;
@@ -70,13 +56,49 @@
   transform: scale(1.05);
 }
 
-.downArrow {
-  width: 5%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+@media screen and (orientation: landscape) {
+  .container {
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .content {
+    height: 80%;
+    justify-content: space-between;
+    margin-right: 5vh;
+  }
+
+  .introContainer {
+    align-items: flex-start;
+    margin-top: 20%;
+  }
+
+  .checkOutContainer {
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: 11.3vh;
+  }
+
+  .description {
+    font-size: 3.6vh;
+    line-height: 6.4vh;
+  }
+
+  .checkWork {
+    font-size: 3vh;
+    color: black;
+  }
+
+  .heroImg {
+    width: 45%;
+    margin-top: 3%;
+  }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (orientation: portrait) {
   .container {
     flex-direction: column-reverse;
     margin-left: 5%;
@@ -87,6 +109,7 @@
   .content {
     margin-right: 0%;
     height: 50%;
+    width: 100%;
     justify-content: space-evenly;
   }
 
@@ -99,6 +122,7 @@
   .checkOutContainer {
     text-align: center;
     align-items: center;
+    width: 100%;
     margin-top: 20%;
   }
 
@@ -114,10 +138,11 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 11vw;
   }
 
   .description {
-    font-size: 20px;
+    font-size: 5.4vw;
+    line-height: 6vh;
   }
 }

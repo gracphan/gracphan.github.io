@@ -14,7 +14,7 @@ export const Hero = () => {
           </p>
         </div>
         <div className={styles.checkOutContainer}>
-          <p className={styles.checkWork}>Check out my work</p>
+          <p className={styles.checkWork}>Check out my work!</p>
           <img
             src={getImageUrl("hero/down-arrow.png")}
             alt="Down arrow"

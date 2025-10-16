@@ -1,19 +1,16 @@
-@import "../../vars.css";
-
+/* Master Styling */
 .container {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .title {
-  margin-top: 3%;
-  margin-bottom: 2%;
-  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-weight: 700;
   color: black;
   font-family: 'Bitter', serif;
@@ -21,11 +18,28 @@
 
 .projects {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
+  flex-direction: column;
   width: 100%;
-  overflow: auto;
-  padding: 2%;
-  gap: 30px;
+  align-items: center;
+}
+
+@media screen and (orientation: landscape) {
+  .title {
+    font-size: 6.5vh;
+  }
+
+  .projects {
+    gap: 10vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .projects {
+    gap: 5vh;
+  }
+  
+  .title {
+    font-size: 9vw;
+    margin-bottom: 5vw;
+  }
 }

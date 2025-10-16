@@ -21,7 +21,8 @@ export const Photography = () => {
       <div className={styles.introContainer}>
         <h1 className={styles.title}>Photography</h1>
         <p className={styles.description}>
-          I use photography as a way of capturing the beauty of the people and places around me!
+        Ever since I figured out how buttons work, I have been photographing the world around me.
+        Being able to capture moments with the people I love, the intricacies of the places I travel to, and the beauty of nature is why I love photography so much.
         </p>
         <p className={styles.description}>
           Shot using a Canon EOS M50.

@@ -7,8 +7,8 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <h2 className={styles.title}>Contact</h2>
+        <p className={styles.description}>Feel free to reach out!</p>
       </div>
       <div className={styles.links}>
         <a href="https://www.linkedin.com/in/grace-phan/" target="_blank" rel="noopener noreferrer">

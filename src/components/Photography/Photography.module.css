@@ -1,3 +1,4 @@
+/* Master Styling */
 .container {
   position: relative;
   display: flex;
@@ -16,17 +17,13 @@
 }
 
 .title {
-  font-size: 72px;
   font-weight: 900;
   font-family: 'Bitter', serif;
   color: black;
-  margin-top: 9%;
-  margin-bottom: 5%;
   text-align: center;
 }
 
 .description {
-  font-size: 20px;
   color: black;
   margin-bottom: 5%;
   text-align: center;
@@ -68,35 +65,53 @@
   display: flex;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 20px;
   font-weight: 500;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .caption img {
-  width: 18px; /* Icon size */
+  width: 18px;
   height: 22px;
-  margin-right: 8px; /* Space between the icon and the location text */
+  margin-right: 8px;
 }
 
 .image-container:hover .caption {
   opacity: 1;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (orientation: landscape) {
   .container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   .title {
-    font-size: 50px;
-    margin-bottom: 10%;
+    font-size: 11.3vh;
+    margin-bottom: 7vh;
+    margin-top: 9vw;
   }
 
   .description {
-    font-size: 18px;
+    font-size: 3.2vh;
+    line-height: 4.8vh;
+  }
+
+  .caption {
+    font-size: 3.2vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .title {
+    font-size: 11vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+  }
+
+  .description {
+    font-size: 5vw;
+    line-height: 5vh;
   }
 
   .introContainer {
@@ -110,5 +125,9 @@
 
   .galleryColumn {
     width: 100%
+  }
+
+  .caption {
+    font-size: 5vw;
   }
 }
