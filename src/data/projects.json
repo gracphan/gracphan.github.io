@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Flappy Fish",
+    "imageSrc": "projects/FlappyFish.jpg",
+    "description": "An aquatic spinoff of Flappy Bird, with color customization, powerups, and dynamic object spawning!",
+    "skills": ["Arduino", "C++"],
+    "demo": "https://youtu.be/r4-bMRFIg6c"
+  },
+  {
+    "title": "Sepsis Prediction Model",
+    "imageSrc": "projects/VinBrain.jpg",
+    "description": "During my internship at VinBrain, I created a machine learning model to predict sepsis in patients.",
+    "skills": ["Python", "Data Analysis"]
+  },
+  {
+    "title": "Eleckey",
+    "imageSrc": "projects/Inora.jpg",
+    "description": "Eleckey is a self-service licensing key application I worked on during my semester with Inora Technologies.",
+    "skills": ["C", "Python"]
+  },
+  {
+    "title": "Photographers' Favorites",
+    "imageSrc": "projects/PhotoFaves.jpg",
+    "description": "This is a collection of favorite photos taken by the photography staff at the Michigan Daily.",
+    "skills": ["Typescript", "Javascript", "React"],
+    "demo": "https://specials.michigandaily.com/2024/photographers-favorites/"
+  }
+]

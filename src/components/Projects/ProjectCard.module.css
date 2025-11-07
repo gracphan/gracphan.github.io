@@ -1,0 +1,65 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.25);
+  padding: 18px 20px;
+  width: 250px;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  margin-bottom: 12px;
+  height: 150px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  font-family: 'Bitter', serif;
+  height: 50px;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  height: 80px;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  list-style: none;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  border-radius: 100px;
+  background: rgb(255, 224, 236);
+  padding: 4px 10px;
+}
