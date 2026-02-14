@@ -1,0 +1,84 @@
+.navbar {
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    /* Span the entire width of the viewport */
+    height: 80px;
+    /* Set a fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    background: linear-gradient(to bottom, white, transparent);
+}
+
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+
+.menuBtn {
+    display: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItems {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menuItems a {
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 90%
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menuBtn {
+        display: block;
+        cursor: pointer;
+        width: 30px;
+    }
+
+    .menuItems {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: white;
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menuOpen {
+        display: flex;
+        z-index: 1;
+    }
+}

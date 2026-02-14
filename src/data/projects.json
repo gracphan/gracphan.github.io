@@ -1,0 +1,40 @@
+[
+    
+    {
+        "title": "Spotify Notes",
+        "imageSrc": "SpotifyNotes.jpg",
+        "description": "A Chrome extension that lets users attach personal notes to songs in Spotify, preserving meaningful lyrics, memories, or reflections tied to each track.",
+        "skills": [
+            "JavaScript",
+            "React",
+            "Spotify Web API",
+            "Node.js",
+            "Firebase"
+        ],
+        "link": "",
+        "demoVideo": "SpotifyNotesDemo.mp4"
+    },
+    {
+        "title": "Photographers' Favorites",
+        "imageSrc": "PhotoFaves.jpg",
+        "description": "A collection of favorite photos taken by the photography staff at the Michigan Daily.",
+        "skills": [
+            "TypeScript",
+            "JavaScript",
+            "React"
+        ],
+        "link": "https://specials.michigandaily.com/2024/photographers-favorites/",
+        "demoVideo": "PhotoFavesDemo.mp4"
+    },
+    {
+        "title": "Flappy Fish",
+        "imageSrc": "FlappyFish.jpg",
+        "description": "An aquatic spinoff of Flappy Bird, with color customization, powerups, and dynamic object spawning!",
+        "skills": [
+            "Arduino",
+            "C++"
+        ],
+        "link": "https://youtu.be/r4-bMRFIg6c",
+        "demoVideo": "FlappyFishDemo.mp4"
+    }
+]

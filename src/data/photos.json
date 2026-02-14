@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Pink Peach Tree Flowers",
+      "imageSrc": "IMG_3139.JPG",
+      "location": "My backyard!"
+    },
+    {
+        "title": "Sunset Candid",
+        "imageSrc": "IMG_4397.jpg",
+        "location": "Okemos, Michigan"
+    },
+    {
+      "title": "Coastal Houses",
+      "imageSrc": "IMG_7603.JPG",
+      "location": "Capri, Italy"
+    },
+    {
+        "title": "Boat Tour of Capri",
+        "imageSrc": "IMG_7642.jpg",
+        "location": "Capri, Italy"
+    },
+    {
+        "title": "Vintage Car",
+        "imageSrc": "IMG_7756.JPG",
+        "location": "Capri, Italy"
+    },
+    {
+        "title": "Butterfly",
+        "imageSrc": "IMG_8218.JPG",
+        "location": "MSU Botanical Gardens"
+    },
+    {
+        "title": "Cacti",
+        "imageSrc": "IMG_4466.JPG",
+        "location": "Frederick Meijer Gardens"
+    }
+]
+  

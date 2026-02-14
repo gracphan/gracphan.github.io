@@ -1,0 +1,30 @@
+[
+    {
+        "company": "Stryker",
+        "location": "Remote/Portage, MI",
+        "position": "MDP Student Software Engineer",
+        "date": "January 2026 - Present",
+        "description": "I am implementing a real-time object detection system using YOLO to identify and classify surgical instruments, reducing the likelihood of retained instruments inside patients during operating procedures."
+    },
+    {
+        "company": "The Michigan Daily",
+        "location": "Ann Arbor, MI",
+        "position": "Software Engineer",
+        "date": "September 2024 - Present",
+        "description": "I develop interactive web features for the Michigan Daily's online platform, improving user engagement and digital storytelling."
+    },
+    {
+        "company": "UMich Computer Science Department",
+        "location": "Ann Arbor, MI",
+        "position": "Instructional Assistant, EECS 402",
+        "date": "August 2025 - December 2025",
+        "description": "I led weekly discussions and office hours for 25+ graduate students, teaching C++ fundamentals, object-oriented design, testing, and debugging strategies."
+    },
+    {
+        "company": "UMich Center for Healthcare Engineering & Patient Safety",
+        "location": "Ann Arbor, MI",
+        "position": "Undergraduate Researcher",
+        "date": "May 2025 - August 2025",
+        "description": "I built Python simulations and analyzed CT scan workflows in collaboration with U-M faculty and Michigan Medicine Emergency Department leadeship to identify bottlenecks that contributed to long wait times. Our proposed improvements are projected to save 12,000+ hours annually. My team was awarded 2nd place at the 2025 UM-IOE Research Symposium!"
+    }
+]
